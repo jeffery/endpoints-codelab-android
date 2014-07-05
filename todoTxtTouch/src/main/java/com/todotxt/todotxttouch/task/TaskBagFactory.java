@@ -38,6 +38,7 @@ public class TaskBagFactory {
             TodoPreferences sharedPreferences) {
         LocalFileTaskRepository localFileTaskRepository = new LocalFileTaskRepository();
 
-        return new TaskBagImpl(sharedPreferences, localFileTaskRepository, null);
+        //return new TaskBagImpl(sharedPreferences, localFileTaskRepository, null);
+        return new EndpointsTaskBagImpl(sharedPreferences,localFileTaskRepository);
     }
 }

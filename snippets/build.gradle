@@ -32,6 +32,6 @@ dependencies {
     compile files('libs/apache-mime4j-0.6.jar')
     compile files('libs/httpmime-4.0.3.jar')
     compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
-    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:support-v4:20.0.0'
     compile project(path: ':todoTxtBackend', configuration: 'android-endpoints')
 }

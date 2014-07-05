@@ -1,4 +1,4 @@
-include ':actionBarPullToRefresh'
+include ':actionBarPullToRefresh', ':todoTxtBackend'
 include ':actionBarPullToRefreshextras'
 include ':chuckbjonesSwipeToDismissUndoListec6bf93'
 include ':todoTxtTouch'
